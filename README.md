@@ -52,15 +52,15 @@ This raw data was transformed to perform analysis using Pandas and Numpy librari
 ## Results
 Owing to academic dishonesty for math and reading scores in Thomas High School for ninth graders; 
 The grades for math and reading in Thomas High School, 9th graders were replaced with NaNs. 
-In the analysis below is the comparison from both analyses before and after the replacement the grades with NaNs.The analysis aims to address the folloing points:
+In the analysis below is the comparison from both analyses before and after the replacement the grades with NaNs.The analysis aims to address the following points: (all images are ordered as OLD vs NEW (after converting to NaN to show the differences)
 
 How is the district summary affected?
 -   In this summary, the results were NOT impacted by NaNs. The change of results from Thomas High School 9th grade had minimal impact on district Analysis.
 -   Each metric decreased by less that 0.5 percentage point each (meaning scores changed by less than 0.5%
 
-![Old District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/new_district_summary.png)
+![Old District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/old_district_summary.png)
 
-![New District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/old_district_summary.png)
+![New District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/new_district_summary.png)
 
 How is the school summary affected?
 -   results for School summary remained unchanged.
