@@ -1,5 +1,5 @@
 # School District Analysis
-Analysis on school district performance using Jupyter Notebook,  Pandas and Numpy.
+Analysis on school district performance using Jupyter Notebook, Pandas and Numpy.
 
 ## Project Overview
 
@@ -46,19 +46,21 @@ The analysis will assist the school board in making decisions regarding the scho
 
 ## Approach
 
-The data was in two different CSV files (school data and student data). This raw data was transformed to perform analysis using Pandas and Numpy libraries.
-
+The data was in two different CSV files (school data and student data). 
+This raw data was transformed to perform analysis using Pandas and Numpy libraries.
 
 ## Results
-Owing to academic dishonesty for math and reading scores in Thomas High School for ninth graders; The grades for math and reading in Thomas High School, 9th graders will be replaced with NaNs. In the analysis below is the comparison from both analyses before and after the replacement the grades with NaNs.The analysis aims to address the folloing points:
+Owing to academic dishonesty for math and reading scores in Thomas High School for ninth graders; 
+The grades for math and reading in Thomas High School, 9th graders were replaced with NaNs. 
+In the analysis below is the comparison from both analyses before and after the replacement the grades with NaNs.The analysis aims to address the folloing points:
 
 How is the district summary affected?
 -   In this summary, the results were NOT impacted by NaNs. The change of results from Thomas High School 9th grade had minimal impact on district Analysis.
 -   Each metric decreased by less that 0.5 percentage point each (meaning scores changed by less than 0.5%
 
-![New District Summary]
+![Old District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/new_district_summary.png)
 
-![Old District Summary]
+![New District Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/old_district_summary.png)
 
 How is the school summary affected?
 -   results for School summary remained unchanged.
@@ -66,76 +68,64 @@ How is the school summary affected?
 -   Passing math and reading percentage remained unchanged.
 -   Overall passing percentage had no impact either.
 
-![New School Summary]
+![New School Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/new_school_summary.png)
+
+![Old School Summary](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/school_summary_old.png)
+
+The analysis aims to address the below points as well
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
--   only grades from Thomas High school in 9th grade was affected for math and reading.
+- only grades from Thomas High school in 9th grade was affected for math and reading.
 - Grade 9 students at Thomas High School have NaN's
--  analysis were performed separately for each class and each school; hence other graders and schools weren’t affected.
+- analysis were performed separately for each class and each school; hence other graders and schools weren’t affected.
 
+Below is the comparison of schools Maths Perforamance before and after converting NaN's
 
-![MOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Math_Score_Original.png)
-![MUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Match_Score_Updated.png)
+![Old_Maths](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/Old_Maths.png)
 
+![New_Maths](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/New_Maths.png)
 
+Below is the comparison of schools Reading Perforamance before and after converting NaN's
 
-![ROG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Reading_Score_Original.png)
-![RUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Reading_Score_Updated.png)
+![Old_Reading](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/Old_Reading.png))
 
-Data Frame from analysis "The average math and reading scores for each grade level from each school" before and after replacement grades with NaNs.
+![New_Reading](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/New_Reading.png)
 
-**4. The top 5 and bottom 5 performing schools, based on the overall passing rate**
-
+**The top 5 and bottom 5 performing schools, based on the overall passing rate**
 -   The overall rating for Thomas High School changed slightly.
 -   The school rank remained second after changing scores with NaNs.
-#### Top 5
 
-![TOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Top_School_Original.png)
-![TUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Top_School_Updated.png)
-#### Bottom 5
-
-![BOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Bottom_School_Original.png)
-![BUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Bottom_School_Updated.png)
-
-
-**5. School performance impact based on school spending**
+**impact on school spending**
 
 -   From the Data Frame we can see that Thomas High school falls into a category  _spending range per students $630-$644_.
 -   Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs.
 -   Each metric changing less than 0.1 percentage points or change of less than 0.1%.
 
-![SOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Spending_Summary_Original.png)
-![SUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Spending_Summary_Updated.png)
+![Old_Spending](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/Old_Spending.png)
 
-Data Frame from analysis "School performance based on school spend" before and after replacement grades with NaNs.
+![New_Spending](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/New_Spending.png)
 
-**6. School performance impact based on the school size**
+**impact on school size**
 
--   From the Data Frame we can see that Thomas High school falls into a category  _medium size school (1000 - 2000 students)_.
+-   From the Data Frame we can see that Thomas High school falls into a category  _medium size school_.
 -   Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs.
 -   Each Metric was impacted by less than 0.1%. 
 
-![SOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/School_Size_Original.png)
-![SUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/School_Size_Updated.png)
+![Old_School_Size](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/Old_School_Size.png)
 
-Data Frame from analysis "School performance based on the school size" before and after replacement grades with NaNs.
+![New_School_Size](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/New_School_size.png)
 
-**7. School performance impact based on the type of school**
-
+**impact on the type of school**
 -   From the Data Frame we can see that Thomas High school falls into a category  _Charter_  for school type.
 -   Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs.
 -   Again the overall impact to all metrics was less than 0.1%.
 
-![SSOG](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/Scool_Type_Original.png)
-![SSUD](https://github.com/awalindeep/School_District_Analysis./blob/AwalinGHMAIN/Resources/School_Type_Updated.png)
+![Old_School_Type](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/Old_School_Type.png)
 
-Data Frame from analysis "School performance based on the type of school" before and after replacement grades with NaNs.
-
+![New_School_Type](https://github.com/gopivasanth/School_District_Analysis/blob/0e484e8f33b4d4f98aa692de640b61f553d6c0d3/Resources/New_School_Type.png)
 
 ## Summary
-
 Replacing the maths and reading grades for 9th grade students of Thomas High School didn't impact the summary reports to a great extent.
-
 *  The overall impact on results very minimal. In individual case it is as less than 1%. 
 *  There were minor changes in school summaries by spending per student, size, and type.    
